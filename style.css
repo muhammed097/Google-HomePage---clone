@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border:1px solid #ff0000;  */
+}
+
+html {
+  font-size: 62.5;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Arimo', sans-serif;
+}
+
+.align {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+/* Website Code Start here */
+
+.navBar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuitems {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuitems ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.menuitems li {
+  margin-left: 10px;
+}
+
+.menuitems .fa-solid.fa-grip {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.circle {
+  background: lightblue;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 15px;
+  bottom: 10px;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.main {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.main img {
+  width: 18%;
+  height: auto;
+}
+
+.search {
+
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+.search input[type="text"] {
+
+  width: 40%;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 15px;
+  padding: 20px;
+  border: 1px solid #dfe1e5;
+
+}
+
+.search .fa-solid.fa-magnifying-glass {
+  position: relative;
+  right: 665px;
+  color: #D0D4CA;
+}
+
+.mic {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 1110px;
+  bottom: 38px;
+}
+
+
+.mic img {
+  width: 80%;
+  height: 80%;
+}
+
+.lens {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 1135px;
+  bottom: 74px;
+}
+
+
+.lens img {
+  width: 60%;
+  height: 60%;
+}
+
+.searchbutton {
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 60px;
+  background-color: #f8f9fa;
+  color: #ffffff;
+  border: 1px solid #f8f9fa;
+
+}
+
+.searchbutton h2 {
+  color: #3c4043;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.lucky {
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 60px;
+  background-color: #f8f9fa;
+  color: #ffffff;
+  border: 1px solid #f8f9fa;
+}
+
+.lucky h2 {
+  color: #3c4043;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.twobuttons {
+  text-align: center;
+  margin-top: -50px;
+  margin-right: 140px;
+
+}
+
+.languages {
+  text-align: center;
+  margin-top: 40px;
+  margin-right: 25px;
+  word-spacing: 5px;
+}
+
+.languages h4 {
+  color: #3c4043;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.languages span {
+  color: #1a0dab;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+
+.footerContainer {
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+
+
+.footer1 h2 {
+  color: #70757a;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+  top: -5px;
+}
+
+.footer2 {
+  display: flex;
+  position: relative;
+  top: 10px;
+}
+
+.footer3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer3 h2 {
+  margin-top: -10px;
+  position: relative;
+  right: 35px;
+}
+
+hr {
+  border-color: #f2f2f2;
+}
